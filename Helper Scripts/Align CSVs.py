@@ -23,7 +23,7 @@ def reorder_csv_columns(reference_filepath, target_filepath, output_filepath):
         print(f"Target file columns before reordering: {target_columns}")
         print(f"Columns used for reordering: {common_ordered_columns}")
 
-        # 4. Reorder the DataFrame
+        # Reorder the DataFrame
         df_reordered = df_target[common_ordered_columns]
 
         # Save the reordered DataFrame
@@ -47,8 +47,8 @@ def reorder_csv_columns(reference_filepath, target_filepath, output_filepath):
 
 if __name__ == "__main__":
 
-    ref_file = 'Datasets/ADNI-Oasis_dataset.csv'  # File with the desired column order (File 1)
-    target_file = 'Datasets/Original Datasets/AIBL_dataset.csv'  # File to be reordered (File 2)
+    ref_file = 'Datasets/ADNI-Oasis_dataset.csv'  # File with the desired column order
+    target_file = 'Datasets/Original Datasets/AIBL_dataset.csv'  # File to be reordered
     output_file = 'Datasets/Aligned Datasets/AIBL_aligned_data.csv'  # The resulting reordered file
 
     # Run the column reordering function
