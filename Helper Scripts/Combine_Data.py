@@ -2,8 +2,8 @@ import pandas as pd
 
 # Define the paths to input CSV files
 file1_path = 'Datasets/ADNI_complete_dataset.csv'
-file2_path = 'Datasets/Oasis3_complete_dataset.csv'
-output_file_path = 'Datasets/ADNI-Oasis_dataset.csv'
+file2_path = 'Datasets/Original Datasets/AIBL_dataset.csv'
+output_file_path = 'Datasets/ADNI-AIBL_dataset.csv'
 
 try:
     # Read the CSV files into pandas DataFrames
