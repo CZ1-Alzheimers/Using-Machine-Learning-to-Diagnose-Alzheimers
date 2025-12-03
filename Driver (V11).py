@@ -187,7 +187,7 @@ def get_model_and_params():
     )
 
     params = {
-        "pca__n_components": [80, 150, 200],
+        "pca__n_components": [50, 80, 150, 200, 250, 300],
         "selector__k": [30, 60, 90, 120],
         "model__C": [10, 50, 100],
         "model__gamma": [0.01, 0.001, "scale"],
@@ -923,7 +923,9 @@ if __name__ == "__main__":
         # Multi-class prediction on test set
         test_results_path = os.path.join(RESULTS_ROOT, "Test Results", data)
         os.makedirs(test_results_path, exist_ok=True)
-        test_prediction_file = os.path.join(test_results_path, f"Test_Prediction.csv")
+        test_prediction_file = os.path.join(test_results_path, f"Test_Prediction_{data}.csv")
+
+        test_data_tag = data
 
         print("\n" + "=" * 50)
         print(f"Starting Final Multi-Class Prediction on {test_data_tag} set...")
