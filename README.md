@@ -5,7 +5,7 @@ Early detection of Alzheimer’s disease (AD) remains a significant clinical cha
 
 ## Instructions to Test
 If you would like to test our model, download our most current [driver](https://github.com/CZ1-Alzheimers/Using-Machine-Learning-to-Diagnose-Alzheimers/blob/main/Driver%20(V11).py).
-You will need to download our [dataset](https://pages.github.com/) as well. Make sure it is in the same directory as the driver. You may need to change files pathways in the code.
+You will need to download our [dataset](https://github.com/CZ1-Alzheimers/Using-Machine-Learning-to-Diagnose-Alzheimers/blob/main/Datasets/ADNI-Oasis-AIBL_dataset.csv) as well. Make sure it is in the same directory as the driver. You may need to change files pathways in the code.
 
 ## Thank You
 Thank you for visiting our GitHub!
