@@ -7,7 +7,7 @@ Early detection of Alzheimer’s disease (AD) remains a significant clinical cha
 If you would like to test our model, download our most current [driver](Driver%20(V11).py).
 You will need to download our [dataset](Datasets/ADNI-Oasis-AIBL_dataset.csv) as well. Make sure it is in the same directory as the driver. You may need to change files pathways in the code.
 
- The [spm_auto.m](Data%20Processing/spm_auto.m) script was used to process the raw MRI images and map them onto each [brain template](Data%20Processing/brain_template).
+ The [spm_auto.m](MRI%20Processing/spm_auto.m) script was used to process the raw MRI images and map them onto each [brain template](MRI%20Processing/brain_templates).
 
 ## Thank You
 Thank you for visiting our GitHub!
